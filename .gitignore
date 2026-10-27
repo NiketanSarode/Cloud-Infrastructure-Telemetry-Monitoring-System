@@ -1,0 +1,57 @@
+# Environment and secret files
+
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials/
+
+# SSH private keys and AWS credentials
+
+.aws/
+credentials.json
+
+# Logs
+
+*.log
+logs/
+
+# Temporary and backup files
+
+*.tmp
+*.temp
+*.bak
+*~
+
+# Operating system files
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE and editor files
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python cache (if scripts are added later)
+
+**pycache**/
+*.py[cod]
+
+# Terraform state (if Terraform is added later)
+
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Local monitoring data and generated files
+
+prometheus_data/
+grafana_data/
+*.tar
+*.zip
